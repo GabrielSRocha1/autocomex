@@ -349,149 +349,95 @@ export default function Home() {
         </div>
       </section>
 
-{/* Risk Management Section */}
-      <section className="py-20 bg-white">
+      {/* Our Core Values Section - 2x3 Grid */}
+      <section className="py-20 bg-black">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="relative h-[400px]">
-              <Image
-                src="/600x400-CloudGuardWAF-a-New-approach-1-150x150.jpg"
-                alt="Risk Management"
-                fill
-                className="object-cover rounded-lg"
-              />
-            </div>
-            <div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-blue-900 mb-6 uppercase">
-                GESTÃO DE RISCOS
-              </h2>
-              <p className="text-gray-800 text-lg lg:text-xl leading-relaxed mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+            {/* Risk Management Card */}
+            <div className="bg-blue-600 rounded-lg p-8 text-white relative">
+              <div className="w-16 h-16 mb-6 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
+                <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"/>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 uppercase">GESTÃO DE RISCOS</h3>
+              <p className="text-lg leading-relaxed">
                 Nossa capacidade de gerenciar efetivamente os riscos inerentes ao trading de commodities é fundamental para o desenvolvimento contínuo e estabilidade.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Compliance Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-blue-900 mb-6 uppercase">
-                CONFORMIDADE
-              </h2>
-              <p className="text-gray-800 text-lg lg:text-xl leading-relaxed mb-8">
+            {/* Compliance Card */}
+            <div className="bg-blue-600 rounded-lg p-8 text-white relative">
+              <div className="w-16 h-16 mb-6 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
+                <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd"/>
+                  <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"/>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 uppercase">CONFORMIDADE</h3>
+              <p className="text-lg leading-relaxed">
                 O cenário regulatório no qual operamos está se tornando cada vez mais consistente, abrangente e transparente.
               </p>
             </div>
-            <div className="relative h-[400px]">
-              <Image
-                src="/image 1 (1).png"
-                alt="Compliance"
-                fill
-                className="object-cover rounded-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Sustainability & Ethics Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="relative h-[400px]">
-              <Image
-                src="/image 1 (2).png"
-                alt="Sustainability & Ethics"
-                fill
-                className="object-cover rounded-lg"
-              />
-            </div>
-            <div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-blue-900 mb-6 uppercase">
-                SUSTENTABILIDADE E ÉTICA
-              </h2>
-              <p className="text-gray-800 text-lg lg:text-xl leading-relaxed mb-8">
+            {/* Sustainability & Ethics Card */}
+            <div className="bg-blue-600 rounded-lg p-8 text-white relative">
+              <div className="w-16 h-16 mb-6 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
+                <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd"/>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 uppercase">SUSTENTABILIDADE E ÉTICA</h3>
+              <p className="text-lg leading-relaxed">
                 O gerenciamento eficaz de saúde e segurança, meio ambiente, direitos humanos e engajamento comunitário (coletivamente chamado "HSEC") é essencial para fazer crescer nosso negócio de forma sustentável e responsável.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Logistics Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-blue-900 mb-6 uppercase">
-                LOGÍSTICA
-              </h2>
-              <p className="text-gray-800 text-lg lg:text-xl leading-relaxed mb-8">
+            {/* Logistics Card */}
+            <div className="bg-blue-600 rounded-lg p-8 text-white relative">
+              <div className="w-16 h-16 mb-6 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
+                <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/>
+                  <path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3zM14 7a1 1 0 00-1 1v6.05A2.5 2.5 0 0115.95 16H17a1 1 0 001-1V8a1 1 0 00-1-1h-3z"/>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 uppercase">LOGÍSTICA</h3>
+              <p className="text-lg leading-relaxed">
                 Nossa equipe de logística opera perfeitamente com nossas mesas de trading para gerenciar exposições de frete e adicionar segurança e eficiência às nossas transações físicas
               </p>
             </div>
-            <div className="relative h-[400px]">
-              <Image
-                src="/image 1.png"
-                alt="Logistics"
-                fill
-                className="object-cover rounded-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Technology Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="relative h-[400px]">
-              <Image
-                src="/image 1 (1).png"
-                alt="Technology"
-                fill
-                className="object-cover rounded-lg"
-              />
-            </div>
-            <div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-blue-900 mb-6 uppercase">
-                TECNOLOGIA
-              </h2>
-              <p className="text-gray-800 text-lg lg:text-xl leading-relaxed mb-8">
+            {/* Technology Card */}
+            <div className="bg-blue-600 rounded-lg p-8 text-white relative">
+              <div className="w-16 h-16 mb-6 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
+                <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"/>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 uppercase">TECNOLOGIA</h3>
+              <p className="text-lg leading-relaxed">
                 Tecnologias de Informação e Comunicação fornecidas no seu melhor em negócios e operações relacionadas
               </p>
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Finance Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-blue-900 mb-6 uppercase">
-                FINANÇAS
-              </h2>
-              <p className="text-gray-800 text-lg lg:text-xl leading-relaxed mb-8">
+            {/* Finance Card */}
+            <div className="bg-blue-600 rounded-lg p-8 text-white relative">
+              <div className="w-16 h-16 mb-6 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
+                <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"/>
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clipRule="evenodd"/>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 uppercase">FINANÇAS</h3>
+              <p className="text-lg leading-relaxed">
                 Central para o sucesso do nosso negócio são os relacionamentos de longo prazo que construímos no setor financeiro global.
               </p>
             </div>
-            <div className="relative h-[400px]">
-              <Image
-                src="/image 1 (2).png"
-                alt="Finance"
-                fill
-                className="object-cover rounded-lg"
-              />
-            </div>
           </div>
+          
         </div>
       </section>
+
 
       {/* Contact Us Section */}
       <section className="relative h-screen overflow-hidden">
