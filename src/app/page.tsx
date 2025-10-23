@@ -559,7 +559,7 @@ export default function Home() {
       </section>
 
       {/* Footer Section */}
-      <footer className="relative bg-gradient-to-b from-orange-900 via-gray-900 to-black text-white h-[400px] overflow-hidden">
+      <footer className="relative bg-gradient-to-b from-orange-900 via-gray-900 to-black text-white min-h-[500px] sm:min-h-[400px] overflow-hidden">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
           <div 
@@ -575,16 +575,16 @@ export default function Home() {
           </div>
         </div>
         
-        <div className="relative z-10 h-full flex flex-col">
+        <div className="relative z-10 min-h-full flex flex-col">
           {/* Top Section - Three Columns */}
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8 flex-1">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 h-full">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-8 flex-1">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-8 min-h-full">
               {/* Left Column - Company Info */}
-              <div className="flex flex-col justify-center">
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-3 sm:mb-4 uppercase">
+              <div className="flex flex-col justify-start sm:justify-center mb-6 sm:mb-0">
+                <h3 className="text-lg sm:text-xl font-bold text-white mb-4 sm:mb-4 uppercase">
                   AUTOCOMEX OIL & GAS
                 </h3>
-                <div className="text-white text-xs leading-relaxed space-y-1">
+                <div className="text-white text-xs leading-relaxed space-y-2">
                   <p><strong>Legal Address</strong></p>
                   <p>Building 280 Taweelah, Abu Dhabi</p>
                   <br />
@@ -595,8 +595,8 @@ export default function Home() {
               </div>
 
               {/* Middle Column - Contact Info */}
-              <div className="flex flex-col justify-center">
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-3 sm:mb-4 uppercase">
+              <div className="flex flex-col justify-start sm:justify-center mb-6 sm:mb-0">
+                <h3 className="text-lg sm:text-xl font-bold text-white mb-4 sm:mb-4 uppercase">
                   ENTRE EM CONTATO
                 </h3>
                 <div className="text-white text-xs space-y-2">
@@ -607,11 +607,11 @@ export default function Home() {
               </div>
 
               {/* Right Column - Newsletter */}
-              <div className="flex flex-col justify-center sm:col-span-2 lg:col-span-1">
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-3 sm:mb-4 uppercase">
+              <div className="flex flex-col justify-start sm:justify-center sm:col-span-2 lg:col-span-1">
+                <h3 className="text-lg sm:text-xl font-bold text-white mb-4 sm:mb-4 uppercase">
                   INSCREVA-SE PARA AS ÚLTIMAS NOTÍCIAS
                 </h3>
-                <div className="space-y-2">
+                <div className="space-y-3">
                   <div className="flex">
                     <input
                       type="email"
@@ -629,10 +629,10 @@ export default function Home() {
           </div>
 
           {/* Bottom Section - Navigation and Copyright */}
-          <div className="border-t border-gray-700 py-3 sm:py-4">
+          <div className="border-t border-gray-700 py-4 sm:py-4 mt-auto">
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
               {/* Navigation Links */}
-              <div className="flex flex-wrap justify-center gap-3 sm:gap-6 mb-2 sm:mb-3">
+              <div className="flex flex-wrap justify-center gap-3 sm:gap-6 mb-4 sm:mb-3">
                 <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors font-semibold uppercase text-xs sm:text-sm">
                   INÍCIO
                 </a>
@@ -651,7 +651,7 @@ export default function Home() {
               </div>
               
               {/* Copyright */}
-              <div className="text-center">
+              <div className="text-center pb-4 sm:pb-0">
                 <p className="text-white text-xs">
                   ©2020 by AutoComex oil & gas.
                 </p>
