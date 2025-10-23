@@ -1,0 +1,187 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom styles for the landing page */
+.hero-image {
+  animation: zoomLoop 20s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+@keyframes zoomLoop {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Alternative smooth zoom effect */
+.hero-image-smooth {
+  animation: smoothZoom 30s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+@keyframes smoothZoom {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.02);
+  }
+  40% {
+    transform: scale(1.05);
+  }
+  60% {
+    transform: scale(1.08);
+  }
+  80% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Continuous zoom effect like in video - focusing on towers */
+.hero-image-continuous {
+  animation: continuousZoom 60s ease-in-out infinite;
+  transform-origin: center center;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+
+@keyframes continuousZoom {
+  0% {
+    transform: scale(1);
+  }
+  5% {
+    transform: scale(1.005);
+  }
+  10% {
+    transform: scale(1.01);
+  }
+  15% {
+    transform: scale(1.015);
+  }
+  20% {
+    transform: scale(1.02);
+  }
+  25% {
+    transform: scale(1.025);
+  }
+  30% {
+    transform: scale(1.03);
+  }
+  35% {
+    transform: scale(1.035);
+  }
+  40% {
+    transform: scale(1.04);
+  }
+  45% {
+    transform: scale(1.045);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  55% {
+    transform: scale(1.045);
+  }
+  60% {
+    transform: scale(1.04);
+  }
+  65% {
+    transform: scale(1.035);
+  }
+  70% {
+    transform: scale(1.03);
+  }
+  75% {
+    transform: scale(1.025);
+  }
+  80% {
+    transform: scale(1.02);
+  }
+  85% {
+    transform: scale(1.015);
+  }
+  90% {
+    transform: scale(1.01);
+  }
+  95% {
+    transform: scale(1.005);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+/* Floating chat button animation */
+.floating-chat {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
