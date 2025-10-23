@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Evolution Oil & Gas - Your Secure Partner",
-  description: "Evolution oil & gas has been proudly providing high-quality products and services in the oil industry.",
+  title: "AutoComex Oil & Gas - Your Secure Partner",
+  description: "AutoComex oil & gas has been proudly providing high-quality products and services in the oil industry.",
 };
 
 export default function RootLayout({
