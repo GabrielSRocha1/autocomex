@@ -57,15 +57,17 @@ export default function Home() {
         
         <div className="relative z-10 flex items-center justify-center h-full text-center text-white px-4 sm:px-6">
           <div className="max-w-4xl">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-3 sm:mb-4 leading-tight">AutoComex Oil & Gas</h1>
-            <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8">Seu parceiro seguro</p>
-            <div className="space-y-3 sm:space-y-4 text-sm sm:text-base md:text-lg lg:text-xl max-w-3xl mx-auto">
+            <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-4 leading-tight">AutoComex Oil & Gas</h1>
+            <p className="text-xl sm:text-xl md:text-2xl mb-8 sm:mb-8">Seu parceiro seguro</p>
+            <div className="space-y-4 sm:space-y-4 text-base sm:text-base md:text-lg lg:text-xl max-w-3xl mx-auto">
               <p>A AutoComex oil & gas tem orgulhosamente fornecido produtos e serviços de alta qualidade na indústria do petróleo.</p>
               <p>O que nos diferencia de outras empresas é a nossa conexão direta com o tranding das refinarias eliminando atrasadores ganhando velocidade no processo e oferecendo produto de qualidade com preços imbativeis.</p>
             </div>
-            <button className="mt-6 sm:mt-8 bg-white text-blue-900 px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors text-sm sm:text-base">
-              SABER MAIS
-            </button>
+            <div className="flex justify-center mt-8 sm:mt-8">
+              <button className="bg-white text-blue-900 px-8 sm:px-8 py-3 sm:py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors text-base sm:text-base">
+                SABER MAIS
+              </button>
+            </div>
           </div>
         </div>
       </section>
@@ -73,10 +75,10 @@ export default function Home() {
       {/* What We Do Section */}
       <section className="py-12 sm:py-16 lg:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-3 sm:mb-4">O Que Fazemos</h2>
-          <div className="w-16 sm:w-24 h-1 bg-black mx-auto mb-3 sm:mb-4"></div>
-          <h3 className="text-lg sm:text-xl md:text-2xl text-black mb-6 sm:mb-8">Nossos Ativos</h3>
-          <p className="text-sm sm:text-base md:text-lg text-black max-w-4xl mx-auto mb-12 sm:mb-16 px-4">
+          <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-4 sm:mb-4">O Que Fazemos</h2>
+          <div className="w-16 sm:w-24 h-1 bg-black mx-auto mb-4 sm:mb-4"></div>
+          <h3 className="text-xl sm:text-xl md:text-2xl text-black mb-8 sm:mb-8">Nossos Ativos</h3>
+          <p className="text-base sm:text-base md:text-lg text-black max-w-4xl mx-auto mb-16 sm:mb-16 px-4">
             A  Tranding parceira da AutoComex oil & gas tem investimentos estratégicos em infraestrutura industrial—refinarias, oleodutos, armazenamento e terminais—que complementam nossa atividade principal de trading e geram valor sustentável em toda a cadeia de suprimentos global para nossos clientes.
           </p>
           
@@ -91,7 +93,7 @@ export default function Home() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h4 className="text-lg sm:text-xl font-semibold text-black">Transporte</h4>
+              <h4 className="text-xl sm:text-xl font-semibold text-black">Transporte</h4>
             </div>
             
             <div className="text-center">
@@ -104,7 +106,7 @@ export default function Home() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h4 className="text-lg sm:text-xl font-semibold text-black">Terminais</h4>
+              <h4 className="text-xl sm:text-xl font-semibold text-black">Terminais</h4>
             </div>
             
             <div className="text-center">
@@ -117,7 +119,7 @@ export default function Home() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h4 className="text-lg sm:text-xl font-semibold text-black">Refinarias</h4>
+              <h4 className="text-xl sm:text-xl font-semibold text-black">Refinarias</h4>
             </div>
           </div>
         </div>
@@ -140,14 +142,16 @@ export default function Home() {
             {/* Text Section - Right Half with Overlap */}
             <div className="w-full lg:w-1/2 relative">
               <div className="relative -mt-10 sm:-mt-16 lg:mt-4 lg:-ml-24 z-10 bg-blue-600 p-4 sm:p-6 lg:p-8 text-center lg:text-left h-[300px] sm:h-[350px] lg:h-[450px] flex flex-col justify-center">
-                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-4 sm:mb-6 leading-tight">
+                <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-6 sm:mb-6 leading-tight">
                   Movendo fronteiras para um setor energético mais verde
                 </h2>
-                <div className="flex flex-col lg:flex-row items-start gap-3 sm:gap-4 mb-4 sm:mb-6">
-                  <button className="bg-white text-blue-600 px-4 sm:px-6 py-2 rounded-lg font-bold hover:bg-gray-100 transition-colors text-xs sm:text-sm uppercase tracking-wide w-28 sm:w-32 flex-shrink-0">
-                    SABER MAIS
-                  </button>
-                  <p className="text-white text-sm sm:text-base lg:text-lg leading-relaxed">
+                <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 sm:gap-4 mb-6 sm:mb-6">
+                  <div className="flex justify-center lg:justify-start">
+                    <button className="bg-white text-blue-600 px-6 sm:px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors text-sm sm:text-sm uppercase tracking-wide w-32 sm:w-32 flex-shrink-0">
+                      SABER MAIS
+                    </button>
+                  </div>
+                  <p className="text-white text-base sm:text-base lg:text-lg leading-relaxed text-center lg:text-left">
                     Esperamos fazer parceria com você e entregar excelência na indústria do petróleo.
                   </p>
                 </div>
@@ -176,15 +180,15 @@ export default function Home() {
         
         <div className="relative z-10 flex items-center justify-center h-full px-4 sm:px-6">
           <div className="bg-blue-900 rounded-xl sm:rounded-2xl p-6 sm:p-8 lg:p-12 max-w-4xl w-full">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-4 sm:mb-6 uppercase">
+            <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-6 sm:mb-6 uppercase">
               CONFORMIDADE E ÉTICA
             </h2>
-            <div className="w-16 sm:w-24 h-1 bg-white mx-auto mb-6 sm:mb-8"></div>
-            <p className="text-white text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-6 sm:mb-8 text-left">
+            <div className="w-16 sm:w-24 h-1 bg-white mx-auto mb-8 sm:mb-8"></div>
+            <p className="text-white text-base sm:text-base md:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-8 text-center">
               Durante os últimos anos, a AutoComex oil & gas investiu na construção de um Departamento de Conformidade líder da indústria. Nossas equipes trabalham continuamente para melhorar os procedimentos da empresa para mitigar riscos e antecipar outros que existem no setor de trading de commodities. Nosso objetivo é manter os mais altos padrões éticos e cumprir todas as regras e regulamentações relevantes onde quer que operemos.
             </p>
-            <div className="text-center">
-              <button className="bg-white text-blue-900 border-2 border-blue-900 px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors text-sm sm:text-base">
+            <div className="flex justify-center">
+              <button className="bg-white text-blue-900 border-2 border-blue-900 px-8 sm:px-8 py-3 sm:py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors text-base sm:text-base">
                 SABER MAIS
               </button>
             </div>
@@ -197,16 +201,18 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
             {/* Left Column - Text Content */}
-            <div className="order-2 lg:order-1">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-4 sm:mb-6 uppercase">
+            <div className="order-2 lg:order-1 text-center lg:text-left">
+              <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-6 sm:mb-6 uppercase">
                 NOSSOS TRADINGS
               </h2>
-              <p className="text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-6 sm:mb-8">
+              <p className="text-gray-800 text-base sm:text-base md:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-8">
                 a Trading parceira da Autocomex. Expandimos nosso portfólio de trading para incluir o fornecimento e entrega global de petróleo bruto e produtos petrolíferos refinados, GLP, gás natural e GNL, biocombustíveis e fertilizantes.
               </p>
-              <button className="bg-white text-blue-900 border-2 border-blue-900 px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors text-sm sm:text-base">
-                SABER MAIS
-              </button>
+              <div className="flex justify-center lg:justify-start">
+                <button className="bg-white text-blue-900 border-2 border-blue-900 px-8 sm:px-8 py-3 sm:py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors text-base sm:text-base">
+                  SABER MAIS
+                </button>
+              </div>
             </div>
 
             {/* Right Column - Single Large Image */}
@@ -241,9 +247,9 @@ export default function Home() {
         
         <div className="relative z-10 flex items-center justify-center h-full px-4 sm:px-6">
           <div className="max-w-4xl text-center text-white">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-3 sm:mb-4 leading-tight">AutoComex Oil & Gas</h1>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 uppercase">SOBRE NÓS</h2>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed max-w-3xl mx-auto">
+            <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-4 leading-tight">AutoComex Oil & Gas</h1>
+            <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-8 sm:mb-8 uppercase">SOBRE NÓS</h2>
+            <p className="text-base sm:text-base md:text-lg lg:text-xl leading-relaxed max-w-3xl mx-auto">
               Atribuímos nossa reputação aos relacionamentos duradouros com clientes que desenvolvemos ao longo dos anos. Acreditamos que todos os nossos clientes merecem o mais alto nível de serviço, e estamos comprometidos em fornecer exatamente isso. Explore o resto do nosso site para saber mais sobre o que temos a oferecer, e entre em contato com qualquer dúvida. A AUTOCOMEX OIL & GAS está aqui para você.
             </p>
           </div>
@@ -254,16 +260,18 @@ export default function Home() {
       <section className="py-12 sm:py-16 lg:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
-            <div className="order-2 lg:order-1">
-              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-blue-900 mb-4 sm:mb-6 uppercase leading-tight">
+            <div className="order-2 lg:order-1 text-center lg:text-left">
+              <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-blue-900 mb-6 sm:mb-6 uppercase leading-tight">
                 A TRANDING PARCEIRA DA AUTOCOMEX TEM UMA PARCERIA GLOBAL
               </h2>
-              <p className="text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-6 sm:mb-8">
+              <p className="text-gray-800 text-base sm:text-base md:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-8">
                 Uma visão interativa de onde a AutoComex oil & gas opera em todo o mundo.
               </p>
-              <button className="bg-blue-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors text-sm sm:text-base">
-                SABER MAIS
-              </button>
+              <div className="flex justify-center lg:justify-start">
+                <button className="bg-blue-600 text-white px-8 sm:px-8 py-3 sm:py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors text-base sm:text-base">
+                  SABER MAIS
+                </button>
+              </div>
             </div>
             <div className="relative h-[250px] sm:h-[300px] lg:h-[400px] order-1 lg:order-2">
               <Image
@@ -289,16 +297,18 @@ export default function Home() {
                 className="object-cover rounded-lg"
               />
             </div>
-            <div className="order-2 lg:order-2">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-4 sm:mb-6 uppercase">
+            <div className="order-2 lg:order-2 text-center lg:text-left">
+              <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-6 sm:mb-6 uppercase">
                 LIDERANÇA
               </h2>
-              <p className="text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-6 sm:mb-8">
+              <p className="text-gray-800 text-base sm:text-base md:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-8">
                 A AutoComex oil & gas mantém uma cadeia de comando curta para facilitar a tomada de decisões eficiente, o que garante que ajamos de forma decisiva para garantir vantagens no interesse de nossos parceiros e clientes.
               </p>
-              <button className="bg-blue-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors text-sm sm:text-base">
-                SABER MAIS
-              </button>
+              <div className="flex justify-center lg:justify-start">
+                <button className="bg-blue-600 text-white px-8 sm:px-8 py-3 sm:py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors text-base sm:text-base">
+                  SABER MAIS
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -308,16 +318,18 @@ export default function Home() {
       <section className="py-12 sm:py-16 lg:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
-            <div className="order-2 lg:order-1">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-4 sm:mb-6 uppercase">
+            <div className="order-2 lg:order-1 text-center lg:text-left">
+              <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-6 sm:mb-6 uppercase">
                 NOSSA HISTÓRIA
               </h2>
-              <p className="text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-6 sm:mb-8">
+              <p className="text-gray-800 text-base sm:text-base md:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-8">
                 Descubra como evoluímos estrategicamente para nos tornar uma das principais casas de trading de commodities independentes do mundo.
               </p>
-              <button className="bg-blue-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors text-sm sm:text-base">
-                SABER MAIS
-              </button>
+              <div className="flex justify-center lg:justify-start">
+                <button className="bg-blue-600 text-white px-8 sm:px-8 py-3 sm:py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors text-base sm:text-base">
+                  SABER MAIS
+                </button>
+              </div>
             </div>
             <div className="relative h-[250px] sm:h-[300px] lg:h-[400px] order-1 lg:order-2">
               <Image
@@ -350,9 +362,9 @@ export default function Home() {
         
         <div className="relative z-10 flex items-center justify-center h-full px-4 sm:px-6">
           <div className="max-w-4xl text-center text-white">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-3 sm:mb-4 leading-tight">AutoComex Oil & Gas</h1>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 uppercase">NOSSA ABORDAGEM</h2>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed max-w-3xl mx-auto">
+            <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-4 leading-tight">AutoComex Oil & Gas</h1>
+            <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-8 sm:mb-8 uppercase">NOSSA ABORDAGEM</h2>
+            <p className="text-base sm:text-base md:text-lg lg:text-xl leading-relaxed max-w-3xl mx-auto">
               Em todos os nossos esforços, a AutoComex oil & gas mantém os mais altos padrões. Valorizamos saúde, segurança e meio ambiente, direitos dos funcionários, conformidade com leis locais e internacionais, e ser um parceiro comprometido com governos e entidades privadas.
             </p>
           </div>
@@ -371,11 +383,11 @@ export default function Home() {
                 className="object-cover rounded-lg"
               />
             </div>
-            <div className="order-2 lg:order-2">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-4 sm:mb-6 uppercase">
+            <div className="order-2 lg:order-2 text-center lg:text-left">
+              <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-6 sm:mb-6 uppercase">
                 GESTÃO DE RISCOS
               </h2>
-              <p className="text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-6 sm:mb-8">
+              <p className="text-gray-800 text-base sm:text-base md:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-8">
                 Nossa capacidade de gerenciar efetivamente os riscos inerentes ao trading de commodities é fundamental para o desenvolvimento contínuo e estabilidade.
               </p>
             </div>
@@ -387,11 +399,11 @@ export default function Home() {
       <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
-            <div className="order-2 lg:order-1">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-4 sm:mb-6 uppercase">
+            <div className="order-2 lg:order-1 text-center lg:text-left">
+              <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-6 sm:mb-6 uppercase">
                 CONFORMIDADE
               </h2>
-              <p className="text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-6 sm:mb-8">
+              <p className="text-gray-800 text-base sm:text-base md:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-8">
                 O cenário regulatório no qual operamos está se tornando cada vez mais consistente, abrangente e transparente.
               </p>
             </div>
@@ -419,11 +431,11 @@ export default function Home() {
                 className="object-cover rounded-lg"
               />
             </div>
-            <div className="order-2 lg:order-2">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-4 sm:mb-6 uppercase">
+            <div className="order-2 lg:order-2 text-center lg:text-left">
+              <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-6 sm:mb-6 uppercase">
                 SUSTENTABILIDADE E ÉTICA
               </h2>
-              <p className="text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-6 sm:mb-8">
+              <p className="text-gray-800 text-base sm:text-base md:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-8">
                 O gerenciamento eficaz de saúde e segurança, meio ambiente, direitos humanos e engajamento comunitário (coletivamente chamado "HSEC") é essencial para fazer crescer nosso negócio de forma sustentável e responsável.
               </p>
             </div>
@@ -435,11 +447,11 @@ export default function Home() {
       <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
-            <div className="order-2 lg:order-1">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-4 sm:mb-6 uppercase">
+            <div className="order-2 lg:order-1 text-center lg:text-left">
+              <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-6 sm:mb-6 uppercase">
                 LOGÍSTICA
               </h2>
-              <p className="text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-6 sm:mb-8">
+              <p className="text-gray-800 text-base sm:text-base md:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-8">
                 Nossa equipe de logística opera perfeitamente com nossas mesas de trading para gerenciar exposições de frete e adicionar segurança e eficiência às nossas transações físicas
               </p>
             </div>
@@ -467,11 +479,11 @@ export default function Home() {
                 className="object-cover rounded-lg"
               />
             </div>
-            <div className="order-2 lg:order-2">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-4 sm:mb-6 uppercase">
+            <div className="order-2 lg:order-2 text-center lg:text-left">
+              <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-6 sm:mb-6 uppercase">
                 TECNOLOGIA
               </h2>
-              <p className="text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-6 sm:mb-8">
+              <p className="text-gray-800 text-base sm:text-base md:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-8">
                 Tecnologias de Informação e Comunicação fornecidas no seu melhor em negócios e operações relacionadas
               </p>
             </div>
@@ -483,11 +495,11 @@ export default function Home() {
       <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
-            <div className="order-2 lg:order-1">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-4 sm:mb-6 uppercase">
+            <div className="order-2 lg:order-1 text-center lg:text-left">
+              <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mb-6 sm:mb-6 uppercase">
                 FINANÇAS
               </h2>
-              <p className="text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-6 sm:mb-8">
+              <p className="text-gray-800 text-base sm:text-base md:text-lg lg:text-xl leading-relaxed mb-8 sm:mb-8">
                 Central para o sucesso do nosso negócio são os relacionamentos de longo prazo que construímos no setor financeiro global.
               </p>
             </div>
@@ -522,9 +534,9 @@ export default function Home() {
         
         <div className="relative z-10 flex items-center justify-center h-full px-4 sm:px-6">
           <div className="max-w-4xl text-center text-white">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-3 sm:mb-4 leading-tight">AutoComex Oil & Gas</h1>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 uppercase">Entre em Contato</h2>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed max-w-3xl mx-auto">
+            <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-4 leading-tight">AutoComex Oil & Gas</h1>
+            <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-8 sm:mb-8 uppercase">Entre em Contato</h2>
+            <p className="text-base sm:text-base md:text-lg lg:text-xl leading-relaxed max-w-3xl mx-auto">
               Em todos os nossos esforços, a AutoComex oil & gas mantém os mais altos padrões. Valorizamos saúde, segurança e meio ambiente, direitos dos funcionários, conformidade com leis locais e internacionais, e ser um parceiro comprometido com governos e entidades privadas.
             </p>
           </div>
