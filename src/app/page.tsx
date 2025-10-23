@@ -51,7 +51,7 @@ export default function Home() {
             <p className="text-xl md:text-2xl mb-8">Seu parceiro seguro</p>
             <div className="space-y-4 text-lg md:text-xl max-w-3xl mx-auto">
               <p>A AutoComex oil & gas tem orgulhosamente fornecido produtos e serviços de alta qualidade na indústria do petróleo.</p>
-              <p>O que nos diferencia de outras empresas é nossa capacidade de nos conectar verdadeiramente com nossos fornecedores e clientes, e fornecer o serviço excepcional que eles merecem.</p>
+              <p>O que nos diferencia de outras empresas é a nossa conexão direta com o tranding das refinarias eliminando atrasadores ganhando velocidade no processo e oferecendo produto de qualidade com preços imbativeis.</p>
             </div>
             <button className="mt-8 bg-white text-blue-900 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
               SABER MAIS
@@ -67,7 +67,7 @@ export default function Home() {
           <div className="w-24 h-1 bg-black mx-auto mb-4"></div>
           <h3 className="text-2xl text-black mb-8">Nossos Ativos</h3>
           <p className="text-lg text-black max-w-4xl mx-auto mb-16">
-            A AutoComex oil & gas tem investimentos estratégicos em infraestrutura industrial—refinarias, oleodutos, armazenamento e terminais—que complementam nossa atividade principal de trading e geram valor sustentável em toda a cadeia de suprimentos global para nossos clientes.
+            A  Tranding parceira da AutoComex oil & gas tem investimentos estratégicos em infraestrutura industrial—refinarias, oleodutos, armazenamento e terminais—que complementam nossa atividade principal de trading e geram valor sustentável em toda a cadeia de suprimentos global para nossos clientes.
           </p>
           
           <div className="grid md:grid-cols-3 gap-12 max-w-4xl mx-auto">
@@ -192,7 +192,7 @@ export default function Home() {
                 NOSSOS TRADINGS
               </h2>
               <p className="text-gray-800 text-lg lg:text-xl leading-relaxed mb-8">
-                O trading está no centro do negócio da AutoComex. Expandimos nosso portfólio de trading para incluir o fornecimento e entrega global de petróleo bruto e produtos petrolíferos refinados, GLP, gás natural e GNL, biocombustíveis e fertilizantes.
+                a Trading parceira da Autocomex. Expandimos nosso portfólio de trading para incluir o fornecimento e entrega global de petróleo bruto e produtos petrolíferos refinados, GLP, gás natural e GNL, biocombustíveis e fertilizantes.
               </p>
               <button className="bg-white text-blue-900 border-2 border-blue-900 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
                 SABER MAIS
@@ -246,7 +246,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl lg:text-5xl font-bold text-blue-900 mb-6 uppercase">
-                UM NEGÓCIO GLOBAL
+                A TRANDING PARCEIRA DA AUTOCOMEX TEM UMA PARCERIA GLOBAL
               </h2>
               <p className="text-gray-800 text-lg lg:text-xl leading-relaxed mb-8">
                 Uma visão interativa de onde a AutoComex oil & gas opera em todo o mundo.
