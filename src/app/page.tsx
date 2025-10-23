@@ -85,9 +85,9 @@ export default function Home() {
             A  Tranding parceira da AutoComex oil & gas tem investimentos estratégicos em infraestrutura industrial—refinarias, oleodutos, armazenamento e terminais—que complementam nossa atividade principal de trading e geram valor sustentável em toda a cadeia de suprimentos global para nossos clientes.
           </p>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12 max-w-4xl mx-auto">
+          <div className="grid grid-cols-3 gap-4 sm:gap-8 lg:gap-12 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto mb-3 sm:mb-4 rounded-full overflow-hidden">
+              <div className="w-20 h-20 sm:w-24 sm:h-24 lg:w-28 lg:h-28 mx-auto mb-3 sm:mb-4 rounded-full overflow-hidden">
                 <Image
                   src="/image 1.png"
                   alt="Shipping"
@@ -96,11 +96,11 @@ export default function Home() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h4 className="text-xl sm:text-xl font-semibold text-black">Transporte</h4>
+              <h4 className="text-lg sm:text-lg lg:text-xl font-semibold text-black">Transporte</h4>
             </div>
             
             <div className="text-center">
-              <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto mb-3 sm:mb-4 rounded-full overflow-hidden">
+              <div className="w-20 h-20 sm:w-24 sm:h-24 lg:w-28 lg:h-28 mx-auto mb-3 sm:mb-4 rounded-full overflow-hidden">
                 <Image
                   src="/image 1 (2).png"
                   alt="Terminals"
@@ -109,11 +109,11 @@ export default function Home() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h4 className="text-xl sm:text-xl font-semibold text-black">Terminais</h4>
+              <h4 className="text-lg sm:text-lg lg:text-xl font-semibold text-black">Terminais</h4>
             </div>
             
             <div className="text-center">
-              <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto mb-3 sm:mb-4 rounded-full overflow-hidden">
+              <div className="w-20 h-20 sm:w-24 sm:h-24 lg:w-28 lg:h-28 mx-auto mb-3 sm:mb-4 rounded-full overflow-hidden">
                 <Image
                   src="/image 1 (1).png"
                   alt="Refineries"
@@ -122,7 +122,7 @@ export default function Home() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h4 className="text-xl sm:text-xl font-semibold text-black">Refinarias</h4>
+              <h4 className="text-lg sm:text-lg lg:text-xl font-semibold text-black">Refinarias</h4>
             </div>
           </div>
         </div>
