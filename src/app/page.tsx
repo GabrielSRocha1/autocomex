@@ -40,20 +40,23 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen overflow-hidden">
         <div 
-          className="absolute inset-0 bg-black bg-opacity-60"
+          className="absolute inset-0 bg-black bg-opacity-70"
         >
           <div 
             className="absolute inset-0"
             style={{
               backgroundImage: "url('/7a79b8_9a4ff7921a4e43e6b95de45df6292a14f000.avif')",
               backgroundSize: "cover",
-              backgroundPosition: "center",
+              backgroundPosition: "center top",
               backgroundRepeat: "no-repeat",
-              opacity: 0.6
+              opacity: 0.4
             }}
           >
           </div>
         </div>
+        
+        {/* Additional overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70"></div>
         
         <div className="relative z-10 flex items-center justify-center h-full text-center text-white px-4 sm:px-6">
           <div className="max-w-4xl">
@@ -164,19 +167,22 @@ export default function Home() {
       {/* Compliance and Ethics Section */}
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-60"></div>
           <div 
             className="absolute inset-0"
             style={{
               backgroundImage: "url('/11062b_aac85620fb59408f862b5c1ae10fafe7f000.avif')",
               backgroundSize: "cover",
-              backgroundPosition: "center",
+              backgroundPosition: "center top",
               backgroundRepeat: "no-repeat",
-              opacity: 0.5
+              opacity: 0.4
             }}
           >
           </div>
         </div>
+        
+        {/* Additional overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/70 to-black/90"></div>
         
         <div className="relative z-10 flex items-center justify-center h-full px-4 sm:px-6">
           <div className="bg-blue-900 rounded-xl sm:rounded-2xl p-6 sm:p-8 lg:p-12 max-w-4xl w-full">
@@ -231,19 +237,22 @@ export default function Home() {
       {/* About Us Section */}
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div 
             className="absolute inset-0"
             style={{
               backgroundImage: "url('/7a79b8_6c7902afbfbe49568ba7c071115c6e22~mv2.avif')",
               backgroundSize: "cover",
-              backgroundPosition: "center",
+              backgroundPosition: "center top",
               backgroundRepeat: "no-repeat",
-              opacity: 0.6
+              opacity: 0.5
             }}
           >
           </div>
         </div>
+        
+        {/* Additional overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/80"></div>
         
         <div className="relative z-10 flex items-center justify-center h-full px-4 sm:px-6">
           <div className="max-w-4xl text-center text-white">
@@ -346,19 +355,22 @@ export default function Home() {
       {/* Our Approach Section */}
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div 
             className="absolute inset-0"
             style={{
               backgroundImage: "url('/7a79b8_8e0f52cec6514d2faabb72f00b70d9c0~mv2.avif')",
               backgroundSize: "cover",
-              backgroundPosition: "center",
+              backgroundPosition: "center top",
               backgroundRepeat: "no-repeat",
-              opacity: 0.8
+              opacity: 0.6
             }}
           >
           </div>
         </div>
+        
+        {/* Additional overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/80"></div>
         
         <div className="relative z-10 flex items-center justify-center h-full px-4 sm:px-6">
           <div className="max-w-4xl text-center text-white">
@@ -518,19 +530,22 @@ export default function Home() {
       {/* Contact Us Section */}
       <section className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div 
             className="absolute inset-0"
             style={{
               backgroundImage: "url('/7a79b8_db8db979019e481da272a86e0a484809~mv2.avif')",
               backgroundSize: "cover",
-              backgroundPosition: "center",
+              backgroundPosition: "center top",
               backgroundRepeat: "no-repeat",
-              opacity: 0.8
+              opacity: 0.6
             }}
           >
           </div>
         </div>
+        
+        {/* Additional overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/80"></div>
         
         <div className="relative z-10 flex items-center justify-center h-full px-4 sm:px-6">
           <div className="max-w-4xl text-center text-white">
